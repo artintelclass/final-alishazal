@@ -1,5 +1,3 @@
-# Final
-
 ## Brief
 For the final your are free to choose what you'd like to do. The project should be a creative use of machine learning. It should be more ambitious in scope compared to what we've done so far this semester. You could do any number of things. A few sample ideas are:
 * Build upon and fully complete one of your projects from earlier in the semester
@@ -33,4 +31,3 @@ You may work within a group or by yourself.
 
 ## Repo
 Use this repo to store all your code, sketches, documentation, etc.
-
