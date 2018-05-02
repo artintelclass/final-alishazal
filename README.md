@@ -79,3 +79,5 @@ Once that was done, we only had to call this function with the input value of th
 2. Another problem was that using the strategy above, the comments weren't showing so using the class of the link that shows comments along with javascript, we were were able to expedite the process of loading all of the posts on a page with the comments. This script is included in the comment scraper file. 
 
 3. Another challenge was that every post has multiple comments so we need the comments to be grouped according to the posts in order for it to be trainable data for the bot as the bot will see things as questions and answers. To do this, we added a seperator to the array that the comments were being pushed to so that the data could be cleaned accordingly.
+
+4. Copying data back from the computer in Panama took a long time. We scp'ed the model files to our computer and even though it was on ethernet, the download speed was just ok.
