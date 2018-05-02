@@ -67,7 +67,13 @@ And it reached:
 
 ![Final](https://github.com/artintelclass/final-alishazal/blob/master/photos/finalBot.png)
 
-## Web Deployment
+## Web Development
+
+Web development was actually a lot more challenging than what we imagined it to be. None of us had ever deployed a Python application on a website before. The first step was to have a basic front end website where the user could write their message or ask something to the Bot. The challenge was then to send this data to the chatbot.py file as the input and then let the python file process it. Then we would need the output from the python file so that we could use it in our html.
+
+Based on research we found out that Flask is a micro framework that helps in accomplishing such tasks. We started by going through a flask tutorial because even though we had a basic template it was not enough to understand the technicalality behind it and make changes. We also had to make changes in the chatbot.py file so that it works with the web. The file initially had a main function with no arguments that would be called to run the entire program. We had to change a huge portion of the file for the main() to take a string argument that is the input. So after the changes we created a function main(input_from_html) that basically After going through this we imported our chatbot.py to the server. 
+
+Once that was done, we only had to call this function with the input value of the index.html. The next step was to clean the output data because all the words came in a list. So, we joined that and got a clean string that was then converted into json which then we used jQuery to put the text in our index.html.
 
 ## Challenges
 
