@@ -58,7 +58,7 @@ Training took at least 12 hours. The time could have been less if we had been ab
 I stopped the training at intervals to check the progress of learning of the bot.
 It started from here:
 
-![Test](https://github.com/artintelclass/final-alishazal/blob/master/photos/test.png)
+![Test](https://github.com/artintelclass/final-alishazal/blob/master/photos/test.jpeg)
 
 And it reached:
 
