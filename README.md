@@ -1,5 +1,6 @@
+# AccioBot 
 
-# AccioBot
+![AccioBot](https://github.com/artintelclass/final-alishazal/blob/master/photos/web.png)
 
 ## Authors
 * Ali Shazal
