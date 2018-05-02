@@ -64,6 +64,8 @@ And it reached:
 
 ![Final](https://github.com/artintelclass/final-alishazal/blob/master/photos/finalBot.png)
 
+## Web Deployment
+
 ## Challenges
 
 1. One of the major challenges that we faced was the problem of autoscroll. We tried using autoscroll to go down to enough posts for a satisfactory amount of data but the browser would either crash or stop responding because of too much data loaded. To tackle this problem, we started navigating to specific dates according to months and using key phrases that were recurring in many facebook posts like, "hey." This came up to about 5000/6000 words per iteration so using this we were able to get to our data. 
