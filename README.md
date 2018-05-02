@@ -19,6 +19,9 @@ Finally, we have come up with the chatbot that we wanted to make. It was trained
 
 * ## Data Scraping
 For the data, we were targeting atleast a 100,000 words combined from both posts and comments in the group. We initially tried using the Facebook API but that approach proved to be unsuccessful. So, we shifted to using javascript and the webpage console instead. Using developer tools, we inspected the markup and found the class names for the post, the post text and the comment text. Then using the data scraping script, we were able to obtain files for comments and posts seperately. Most of the project time was spent in data scraping because there were many hiccups in the process.
+Following is the script that we used:
+
+![Data Scraper](https://github.com/artintelclass/final-alishazal/blob/master/photos/scraperCode.png)
 
 * ## Cleaning Data
    * ### Posts
