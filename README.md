@@ -64,10 +64,6 @@ It started from here:
 
 ![Test](https://github.com/artintelclass/final-alishazal/blob/master/photos/test.jpeg)
 
-And it reached:
-
-![Final](https://github.com/artintelclass/final-alishazal/blob/master/photos/finalBot.png)
-
 ## Web Development
 
 Web development was actually a lot more challenging than what we imagined it to be. None of us had ever deployed a Python application on a website before. The first step was to have a basic front end website where the user could write their message or ask something to the Bot. The challenge was then to send this data to the chatbot.py file as the input and then let the python file process it. Then we would need the output from the python file so that we could use it in our html.
