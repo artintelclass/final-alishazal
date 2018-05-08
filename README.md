@@ -96,4 +96,4 @@ People generally liked the bot and found it fun to interact with. They found the
 
 - **Download [my pre-trained model](https://drive.google.com/open?id=1dHXACIA0FSJaPWJHq3LGlmUiLs3z3lrG)**. Place all the files into the "models" directory of this project.
 
-- **Run the chatbot**. Open a terminal session and run `python3 chatbot.py`.
+- **Run the chatbot**. Open a terminal session and run `python3 chatbotweb.py`.
