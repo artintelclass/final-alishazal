@@ -1,6 +1,6 @@
 # AccioBot 
 
-![AccioBot](https://github.com/artintelclass/final-alishazal/blob/master/photos/web.png)
+![AccioBot](https://github.com/artintelclass/final-alishazal/blob/master/photos/homepage.png)
 
 ## Authors
 * Ali Shazal
@@ -63,6 +63,10 @@ I stopped the training at intervals to check the progress of learning of the bot
 It started from here:
 
 ![Test](https://github.com/artintelclass/final-alishazal/blob/master/photos/test.jpeg)
+
+And the final product that we demonstrated in the IM Showcase looked like this.
+![Final](https://github.com/artintelclass/final-alishazal/blob/master/photos/usertest.png)
+
 
 ## Web Development
 
