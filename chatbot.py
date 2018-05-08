@@ -141,7 +141,7 @@ def chatbot(net, sess, chars, vocab, max_length, beam_width, relevance, temperat
                 out_chars.append(chars[char_token])
                 print(possibly_escaped_char(out_chars), end='', flush=True)
                 states = forward_text(net, sess, states, relevance, vocab, chars[char_token])
-                if i >= max_length: break
+                if i >= 50: break
             states = forward_text(net, sess, states, relevance, vocab, sanitize_text(vocab, "\n> "))
 
 def process_user_command(user_input, states, relevance, temperature, topn, beam_width):

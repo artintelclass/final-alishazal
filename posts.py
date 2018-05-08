@@ -1,7 +1,7 @@
 import time
 
-source = open("posts_text (2).txt", 'r')
-f = open("pos.txt", 'r+')
+source = open("/Data/posts_text.txt", 'r')
+f = open("post.txt", 'r+')
 final = open("finalPost.txt", 'w')
 text = []
 

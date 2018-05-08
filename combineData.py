@@ -1,8 +1,8 @@
 import time
 # from itertools import zip, zip_longest
 
-file1name = 'finalPost.txt'
-file2name = 'finalComm.txt'
+file1name = 'finalComm.txt'
+file2name = 'finalPost.txt'
 
 final = open("finalData.txt", 'w')
 
