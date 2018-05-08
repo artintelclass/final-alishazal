@@ -62,7 +62,8 @@ It started from here:
 
 ![Test](https://github.com/artintelclass/final-alishazal/blob/master/photos/test.jpeg)
 
-And the final product that we demonstrated in the IM Showcase looked like this.
+And the final product that we demonstrated in the IM Showcase looked like this:
+
 ![Final](https://github.com/artintelclass/final-alishazal/blob/master/photos/usertest.png)
 
 ## Web Development
