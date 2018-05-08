@@ -1,0 +1,139 @@
+<!DOCTYPE html><html>
+<head>
+   <meta charset="utf-8">
+    <title>Accio</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<!--     <link rel="stylesheet" type="text/css" href="style.css">
+ --><script type=text/javascript>
+
+
+var emoticons=[];
+var emoticon='';
+var myInput = document.getElementById("customx");
+
+
+</script>
+<script type=text/javascript>
+$(function() {
+
+    function submit_form(e) {
+    console.log("Submit Form triggered!");
+
+    var textString = $('input[id="input"]').val();
+
+    var theRequest = $.ajax({
+      url: '/add?a=' + textString,
+      type: 'GET'
+    });
+    theRequest.done(function(data){
+      console.log("WooHoo");
+      console.log(typeof(data));
+      var words = data.split(" ");
+      var cleanData = words.slice(0,20);
+      var cleanerData = cleanData.join();
+      console.log("Cleaner data!!",cleanerData);
+
+      $("#print-data").text("AccioBOT: "+data+".");
+      $("#emo1").show();
+    });
+  }
+    $('#emo').bind('click', submit_form);
+  if ($('input[id="input"]').val()=='') {
+  }
+});
+$("emo").click(function(){
+    if(clicked){
+        $(this).css('background-color', 'red');
+        clicked  = false;
+    } else {
+        $(this).css('background-color', 'green');
+        clicked  = true;
+    }   
+});
+</script>
+    
+  
+    <style> html,body {padding: 0; margin: 0;} #canvas {position:relative top:0; left:0 ;vertical-align: top; z-index:-5;} #mycanvas {position:absolute top:0 left:0vertical-align: top; z-index:-5;} #button,#emo{position:absolute ;top:82%; left:82%;margin:auto ;text-align: center; } #emo:visited{background-color: red}
+     #text {}</style>
+    
+
+  </head>
+  <body style="background-color:powderblue;font-family: 'Roboto Condensed', sans-serif; margin: 10;">
+
+  <p>
+    <h1 style="text-align: center;">
+      AccioBOT
+    </h1>
+  </p>
+  <p>
+    <h3 style="text-align: center;">
+      <br>
+      Hi, I'm Acciobot! <br> I talk like students do on the Room of Requirements.<br> Go ahead and type something in the input box and find out what I have to say.<br> Just be patient, because I typically take my time (less than a minute) to think and respond. 
+    </h3>
+  </p>
+
+  <br>
+    
+    <div id="canvas"></div>
+    
+<!--     <p id='button'><input type="button"  id="emo" value="emoticon it!"></p>
+ -->
+
+    <p style="font-size: 40px; text-align: center;"></p> <input id="input" type="text" name="FirstName" style="width: 600px;border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    position: relative;
+    left: 25%;" autofocus/><br>
+<!--     <input id="emo" type="button" value="Submit">
+ -->
+    <br><br><br>
+    <button id="emo" style="    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;position: relative;
+    left: 46.5%;">Accio</button>
+    <br><br>
+
+    <p id="print-data" style="text-align: center; font-size: 25px;">.....</p><br>
+    <button onClick="window.location.reload()" id="emo1" style="    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;position: relative;
+    left: 45.5%;
+    display: none;">Ask Again</button>
+
+<!--     <script src="{{url_for('static', filename='sketch.js')}}"></script>
+ -->  </body>    
+    
+  <script>
+    
+
+		var totalText = '';
+		var tempText;
+		var translate=false;//use while loop for translating if translate=-true
+
+  </script>
+
+</body></html>
+
+
+

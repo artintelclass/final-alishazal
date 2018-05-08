@@ -1,0 +1,11 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	margin: 10;
+  	padding: 0;
+  	background-color: #5fc4ae;
+  	font-family: 'Roboto Condensed', sans-serif;
+}
